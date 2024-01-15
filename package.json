@@ -9,7 +9,8 @@
     "watch:pro": "ng build --watch --configuration production",
     "test": "ng test",
     "build:dev": "ng build --configuration=dev",
-    "build:prod": "ng build --configuration=production"
+    "build:prod": "ng build --configuration=production",
+    "deploy": "ng build --prod --base-href=/ci_practica"
   },
   "private": true,
   "dependencies": {
